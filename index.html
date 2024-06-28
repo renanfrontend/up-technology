@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Up! Technology Innovations</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .profile-section {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        .profile-text {
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -61,9 +77,13 @@
         </section>
         <section id="profile">
             <h2>Perfil</h2>
-            <img src="profile.jfif" alt="Foto de Perfil" class="profile-img">
-            <p>Dedico-me ao desenvolvimento de soluções web que combinam estética e funcionalidade. Meu papel como Desenvolvedor Frontend abrange desde a implementação de interfaces responsivas até a integração de práticas inovadoras de UI/UX, visando sempre aprimorar a experiência do usuário. Com um histórico de trabalho consistente em tecnologias como React, Typescript e Next.js, meu foco é construir produtos acessíveis e de alta performance.</p>
-            <p>O rigor nos testes e a eficiência nos processos de implantação contínua (CI/CD) são aspectos que valorizo e aplico em cada projeto. O objetivo é garantir que as entregas sejam não somente atraentes visualmente, mas também estáveis e seguras. Estou comprometido em contribuir para os objetivos dos meus clientes, e continuamente busco evoluir minhas habilidades para manter-me alinhado com as tendências da indústria e as necessidades do mercado.</p>
+            <div class="profile-section">
+                <img src="profile.jfif" alt="Foto de Perfil" class="profile-img">
+                <div class="profile-text">
+                    <p>Dedico-me ao desenvolvimento de soluções web que combinam estética e funcionalidade. Meu papel como Desenvolvedor Frontend abrange desde a implementação de interfaces responsivas até a integração de práticas inovadoras de UI/UX, visando sempre aprimorar a experiência do usuário. Com um histórico de trabalho consistente em tecnologias como React, Typescript e Next.js, meu foco é construir produtos acessíveis e de alta performance.</p>
+                    <p>O rigor nos testes e a eficiência nos processos de implantação contínua (CI/CD) são aspectos que valorizo e aplico em cada projeto. O objetivo é garantir que as entregas sejam não somente atraentes visualmente, mas também estáveis e seguras. Estou comprometido em contribuir para os objetivos dos meus clientes, e continuamente busco evoluir minhas habilidades para manter-me alinhado com as tendências da indústria e as necessidades do mercado.</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
